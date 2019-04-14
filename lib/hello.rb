@@ -1,3 +1,5 @@
+v = ["Tim" , "Tom" , "Jim"]
+
 def hello_t(x)
   
   index = 0
