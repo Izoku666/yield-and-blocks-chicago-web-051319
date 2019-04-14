@@ -10,7 +10,7 @@ def hello_t(x)
   return x
   
   else
-    puts "No block given brah"
+    puts "Hey! No block was given!"
   end
 end
 
