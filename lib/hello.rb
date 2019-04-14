@@ -2,6 +2,7 @@ def hello_t(x)
   
   index = 0
   while index < x.length
+  yield  x[index]
    index += 1
   end
 
