@@ -10,9 +10,3 @@ def hello_t(x)
 end
 
 # call your method here!
-v = ["Tim", "Tom", "Jim"]
-hello_t(v) do |name|
-  if name.starts_with?("T")
-    puts "Hi, #{name}"
-  end
-end
