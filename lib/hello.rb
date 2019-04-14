@@ -1,13 +1,17 @@
 v = ["Tim" , "Tom" , "Jim"]
 
 def hello_t(x)
-  
+  if block_given?
   index = 0
   while index < x.length
     yield x[index]
    index += 1
   end
-  x
+  return x
+  
+  else
+    puts "No block given brah"
+  end
 end
 
 
