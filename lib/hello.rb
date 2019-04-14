@@ -7,8 +7,11 @@ def hello_t(x)
     yield x[index]
    index += 1
   end
-  
   return x
 end
 
+
 # call your method here!
+hello_t(v) do |name|
+  if name.starts_with?("T")
+    puts "Hi, #{name}"
