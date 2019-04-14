@@ -7,7 +7,7 @@ def hello_t(x)
     yield x[index]
    index += 1
   end
-  return x
+  x
 end
 
 
