@@ -1,4 +1,5 @@
 def hello_t(x)
+  
   index = 0
   while index < x.length
    index += 1
